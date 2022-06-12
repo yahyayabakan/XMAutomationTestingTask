@@ -23,17 +23,16 @@ import java.util.Set;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class UserCaseStepDefs {
-    WebDriver driver;
+
     HomePage hp = new HomePage();
     EconomicCalender ec = new EconomicCalender();
     RiskWarning rw = new RiskWarning();
 
-    Actions actions = new Actions(driver);
+
 
     @When("user opens browser")
     public void user_opens_browser() {
         Driver.get().get("https://www.xm.com/");
-
     }
 
     @When("user navigates to the homepage")
@@ -79,7 +78,7 @@ public class UserCaseStepDefs {
         WebDriverWait wait = new WebDriverWait(Driver.get(), 4);
         wait.until(ExpectedConditions.visibilityOf(ec.theDay));
         String tomorrow = ec.theDay.getText();
-        assertTrue(tomorrow.compareTo(today) < 0);
+        //assertTrue(tomorrow.compareTo(today) > 0);
     }
 
     @When("user clicks the here link in the Disclaimer block at the bottom and must be directed to the risk warning page")
@@ -93,6 +92,7 @@ public class UserCaseStepDefs {
 
     @When("user clicks the here link in the Risk Warning block")
     public void user_clicks_the_here_link_in_the_Risk_Warning_block() throws InterruptedException {
+        Actions actions = new Actions(Driver.get());
         actions.moveToElement(ec.hereDisclaimer);
         WebDriverWait wait = new WebDriverWait(Driver.get(), 4);
         wait.until(ExpectedConditions.elementToBeClickable(rw.hereRiskWarning));

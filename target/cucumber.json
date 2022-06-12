@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-12T22:16:10.007Z",
+        "start_timestamp": "2022-06-12T22:44:03.383Z",
         "line": 3,
         "name": "Multiple tasks in one test",
         "description": "",
@@ -13,92 +13,122 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 7494381100,
+              "status": "passed"
             },
             "line": 4,
             "name": "user opens browser",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_opens_browser()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 392025900,
+              "status": "passed"
             },
             "line": 5,
             "name": "user navigates to the homepage",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_navigates_to_the_homepage()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 502045800,
+              "status": "passed"
             },
             "line": 6,
             "name": "user clicks to the Research and Education link and must directed to the next page",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_to_the_Research_and_Education_link_and_must_directed_to_the_next_page()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4679349200,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks Economic Calender link in the opened menu and must be directed to the that page",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_Economic_Calender_link_in_the_opened_menu_and_must_be_directed_to_the_that_page()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 880020600,
+              "status": "passed"
             },
             "line": 8,
             "name": "user clicks the Yesterday button and date must be correct",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_the_Yesterday_button_and_date_must_be_correct()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1308144000,
+              "status": "passed"
             },
             "line": 9,
             "name": "user clicks the Today button and date must be correct",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_the_Today_button_and_date_must_be_correct()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1423027400,
+              "status": "passed"
             },
             "line": 10,
             "name": "user clicks the Tomorrow button and date must be correct",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_the_Tomorrow_button_and_date_must_be_correct()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 462012000,
+              "status": "passed"
             },
             "line": 11,
             "name": "user clicks the here link in the Disclaimer block at the bottom and must be directed to the risk warning page",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_the_here_link_in_the_Disclaimer_block_at_the_bottom_and_must_be_directed_to_the_risk_warning_page()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2541107200,
+              "status": "passed"
             },
             "line": 12,
             "name": "user clicks the here link in the Risk Warning block",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_the_here_link_in_the_Risk_Warning_block()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 224066900,
+              "status": "passed"
             },
             "line": 13,
             "name": "Risk Disclosure document must be opened in a new tab",
-            "match": {},
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.risk_Disclosure_document_must_be_opened_in_a_new_tab()"
+            },
             "keyword": "Then "
           }
         ]

@@ -18,11 +18,12 @@ public class Driver {
 
     public static WebDriver get() {
         if (driver == null) {
-            String browser = "";
+            String browser = ConfigurationReader.getProperty("browser");
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
+                    driver.manage().window().maximize();
                     break;
                 case "chrome-headless":
                     WebDriverManager.chromedriver().setup();

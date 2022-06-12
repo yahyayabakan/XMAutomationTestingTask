@@ -8,6 +8,7 @@ Feature: Automation testing task #1 (UI)
     And user clicks the Yesterday button and date must be correct
     And user clicks the Today button and date must be correct
     And user clicks the Tomorrow button and date must be correct
+    And user clicks the Week button and dates must be correct
     And user clicks the here link in the Disclaimer block at the bottom and must be directed to the risk warning page
     And user clicks the here link in the Risk Warning block
     Then Risk Disclosure document must be opened in a new tab

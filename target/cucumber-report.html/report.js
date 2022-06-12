@@ -80,6 +80,16 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "user clicks the Week button and dates must be correct",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefs.UserCaseStepDefs.user_clicks_the_Week_button_and_dates_must_be_correct()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "user clicks the here link in the Disclaimer block at the bottom and must be directed to the risk warning page",
   "keyword": "And "
 });

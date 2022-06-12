@@ -25,6 +25,12 @@ public class EconomicCalender {
     @FindBy(className = "theDay")
     public WebElement theDay;
 
+    @FindBy(xpath = "//*[@id='widgetFieldDateRange']")
+    public WebElement widgetDay;
+
+    @FindBy(xpath = "//*[@id='timeFrame_thisWeek']")
+    public WebElement thisWeek;
+
     @FindBy(xpath = "//*[@title='economicCalendar']")
     public WebElement iframe;
 }

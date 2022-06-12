@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-12T22:44:03.383Z",
+        "start_timestamp": "2022-06-12T23:42:55.573Z",
         "line": 3,
         "name": "Multiple tasks in one test",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7494381100,
+              "duration": 6381134600,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 392025900,
+              "duration": 317038300,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 502045800,
+              "duration": 458693300,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 4679349200,
+              "duration": 4078439200,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 880020600,
+              "duration": 802958100,
               "status": "passed"
             },
             "line": 8,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 1308144000,
+              "duration": 1274875000,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 1423027400,
+              "duration": 1355478900,
               "status": "passed"
             },
             "line": 10,
@@ -97,10 +97,22 @@
           },
           {
             "result": {
-              "duration": 462012000,
+              "duration": 2390372300,
               "status": "passed"
             },
             "line": 11,
+            "name": "user clicks the Week button and dates must be correct",
+            "match": {
+              "location": "stepdefs.UserCaseStepDefs.user_clicks_the_Week_button_and_dates_must_be_correct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 390018600,
+              "status": "passed"
+            },
+            "line": 12,
             "name": "user clicks the here link in the Disclaimer block at the bottom and must be directed to the risk warning page",
             "match": {
               "location": "stepdefs.UserCaseStepDefs.user_clicks_the_here_link_in_the_Disclaimer_block_at_the_bottom_and_must_be_directed_to_the_risk_warning_page()"
@@ -109,10 +121,10 @@
           },
           {
             "result": {
-              "duration": 2541107200,
+              "duration": 2461160400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "user clicks the here link in the Risk Warning block",
             "match": {
               "location": "stepdefs.UserCaseStepDefs.user_clicks_the_here_link_in_the_Risk_Warning_block()"
@@ -121,10 +133,10 @@
           },
           {
             "result": {
-              "duration": 224066900,
+              "duration": 111362500,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "Risk Disclosure document must be opened in a new tab",
             "match": {
               "location": "stepdefs.UserCaseStepDefs.risk_Disclosure_document_must_be_opened_in_a_new_tab()"

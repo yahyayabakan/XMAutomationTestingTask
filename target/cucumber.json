@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-12T22:16:10.007Z",
+        "line": 3,
+        "name": "Multiple tasks in one test",
+        "description": "",
+        "id": "automation-testing-task-#1-(ui);multiple-tasks-in-one-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user opens browser",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to the homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user clicks to the Research and Education link and must directed to the next page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user clicks Economic Calender link in the opened menu and must be directed to the that page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clicks the Yesterday button and date must be correct",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user clicks the Today button and date must be correct",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user clicks the Tomorrow button and date must be correct",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user clicks the here link in the Disclaimer block at the bottom and must be directed to the risk warning page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user clicks the here link in the Risk Warning block",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Risk Disclosure document must be opened in a new tab",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation testing task #1 (UI)",
+    "description": "",
+    "id": "automation-testing-task-#1-(ui)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserCase.feature",
+    "tags": []
+  }
+]

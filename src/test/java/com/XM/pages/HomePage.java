@@ -9,14 +9,28 @@ public class HomePage {
     public HomePage(){ PageFactory.initElements(Driver.get(), this);}
 
     @FindBy(xpath = "//*[.='ACCEPT ALL']")
-    public WebElement acceptAll;
+    private WebElement acceptAll;
 
     @FindBy(xpath = "//*[@class='main_nav_research']")
-    public WebElement researchAndEducation;
+    private WebElement researchAndEducation;
 
     @FindBy(xpath = "//*[@class='menu-research'][6]")
-    public WebElement economicCalender;
+    private WebElement economicCalender;
 
+    public void goToHomePage(){
+        Driver.get().get("https://www.xm.com/");
+    }
 
+    public void acceptAll(){
+        acceptAll.click();
+    }
+
+    public void clickResearchAndEducation(){
+        researchAndEducation.click();
+    }
+
+    public void clickEconomicCalender(){
+        economicCalender.click();
+    }
 }
 

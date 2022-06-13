@@ -9,6 +9,9 @@ formatter.scenario({
   "description": "",
   "keyword": "Scenario"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user opens browser",
   "keyword": "When "
@@ -117,6 +120,9 @@ formatter.match({
   "location": "stepdefs.UserCaseStepDefs.risk_Disclosure_document_must_be_opened_in_a_new_tab()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

@@ -28,8 +28,6 @@ public class UserCaseStepDefs {
     EconomicCalender ec = new EconomicCalender();
     RiskWarning rw = new RiskWarning();
 
-
-
     @When("user opens browser")
     public void user_opens_browser() {
         Driver.get().get("https://www.xm.com/");
@@ -67,8 +65,6 @@ public class UserCaseStepDefs {
         ec.today.click();
         Thread.sleep(1000);
         String today = ec.widgetDay.getText().substring(0,10);
-        System.out.println(today);
-        System.out.println(dateToday);
         assertEquals(today, dateToday);
     }
 
@@ -79,7 +75,6 @@ public class UserCaseStepDefs {
         Thread.sleep(1000);
         WebDriverWait wait = new WebDriverWait(Driver.get(), 4);
         wait.until(ExpectedConditions.visibilityOf(ec.theDay));
-        //String tomorrow = ec.theDay.getText();
         String tomorrow = ec.widgetDay.getText().substring(0,10);
         System.out.println(tomorrow);
         assertTrue(tomorrow.compareTo(dateToday) > 0);

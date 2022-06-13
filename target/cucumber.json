@@ -3,17 +3,39 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-12T23:42:55.573Z",
+        "start_timestamp": "2022-06-13T17:22:44.619Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1695938900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setUp()"
+            }
+          }
+        ],
         "line": 3,
         "name": "Multiple tasks in one test",
         "description": "",
         "id": "automation-testing-task-#1-(ui);multiple-tasks-in-one-test",
+        "after": [
+          {
+            "result": {
+              "duration": 221560600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6381134600,
+              "duration": 2801644400,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 317038300,
+              "duration": 173872700,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 458693300,
+              "duration": 386125000,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 4078439200,
+              "duration": 3598346300,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 802958100,
+              "duration": 409553600,
               "status": "passed"
             },
             "line": 8,
@@ -73,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 1274875000,
+              "duration": 1131737400,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 1355478900,
+              "duration": 1205413400,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 2390372300,
+              "duration": 2273943400,
               "status": "passed"
             },
             "line": 11,
@@ -109,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 390018600,
+              "duration": 200441500,
               "status": "passed"
             },
             "line": 12,
@@ -121,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 2461160400,
+              "duration": 2224138200,
               "status": "passed"
             },
             "line": 13,
@@ -133,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 111362500,
+              "duration": 119011000,
               "status": "passed"
             },
             "line": 14,
